@@ -1,10 +1,4 @@
 # Wikidata as a hub for the linked data cloud
 
----
-
-# Different link types
-
-- first
-- second
-
+## Tutorial at DCMI conference 2019
 

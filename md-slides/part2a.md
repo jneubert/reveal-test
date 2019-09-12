@@ -151,11 +151,13 @@ Here, we are interested in economists, in particular.
 
 [query to GND endpoint](http://zbw.eu/beta/sparql-lab/?endpoint=http://zbw.eu/beta/sparql/gnd/query&queryRef=https://api.github.com/repos/zbw/sparql-queries/contents/gnd/wd_occupation_economist.rq)
 
+Note: That second direction is also useful, when you have confidential data, which you want to enrich with facts from Wikidata.
+
 ---
 
 ### Several points for attention
 
-- To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) - [list](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints)
+- To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) ([full list](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints))
 - In the other direction, access is normally not restricted
 - Some federated queries get extremely slow, when large sets of bindings exist before the remote service is invoked
 - be sure to exclude variables bound to blank nodes ('unknown value' in Wikidata)

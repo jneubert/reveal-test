@@ -2,7 +2,7 @@
 
 ---
 
-## Linking hubs
+## The idea of linking hubs
 
 Connect concepts via identifiers/URLs
 
@@ -21,7 +21,8 @@ Links in pre-existing hubs are collected or derived algorigoritmically. Wikidata
 
 ## Different linking properties
 
-1. [equivalent class](https://www.wikidata.org/wiki/Property:P1709)
+1. [equivalent class](https://www.wikidata.org/wiki/Property:P1709 (datatype URL))
+3. [exact match](https://www.wikidata.org/wiki/Property:P2888) (datatype URL)
 2. [equivalent property](https://www.wikidata.org/wiki/Property:P1628)
 3. [exact match](https://www.wikidata.org/wiki/Property:P2888) (datatype URL)<br />
   generic link to URL in the meaning of _skos:exactMatch_
@@ -97,7 +98,7 @@ Note:
 
 ## How does that relate to the Linked Data model?
 
-Internal data model and storage (Wikibase) transformed to RDF
+Internal data model and storage (Wikibase) is transformed to RDF for:
 - [RDF dumps](https://www.wikidata.org/wiki/Wikidata:Database_download#RDF_dumps)
 - [Query Service](https://query.wikidata.org)
 
@@ -126,6 +127,10 @@ This creates a hurdle for generic Linked Data browsers and tools - not even
 [exact match](https://www.wikidata.org/wiki/Property:P2888) is translated to
 skos:exactMatch
 
+Note: The identifier with the string value External-ID is published as this
+URI, but not with a general-understood property such as schema:sameAs or
+umbel:isLike.
+
 ---
 
 ## Federated SPARQL queries
@@ -150,9 +155,9 @@ Here, we are interested in economists, in particular.
 
 ### Several points for attention
 
-- To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input)
+- To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) - [list](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints)
 - In the other direction, access is normally not restricted
-- Some federated queries get extremely slow, when large sets of bindings exist before the remote _service_ is invoked
+- Some federated queries get extremely slow, when large sets of bindings exist before the remote service is invoked
 - be sure to exclude variables bound to blank nodes ('unknown value' in Wikidata)
 
 ---
@@ -160,7 +165,7 @@ Here, we are interested in economists, in particular.
 ## Further reading on Wikidata/RDF
 
 - [RDF dump format (documentation)](https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format)
-- [SPARQL federation](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) ([examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries))
+- [Waagmester: Integrating Wikidata and other linked data sources - Federated SPARQL queries](http://sulab.org/2017/07/integrating-wikidata-and-other-linked-data-sources-federated-sparql-queries/) ([more examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries))
 - [Malyshev et al.: Semantic Technology Usage in Wikipedia’s Knowledge Graph](https://iccl.inf.tu-dresden.de/w/images/5/5a/Malyshev-et-al-Wikidata-SPARQL-ISWC-2018.pdf)
 - Critical comments/suggestions: [Freire/Isaac: Technical usability of Wikidatas linked data](https://pdfs.semanticscholar.org/f6d1/6eaf975af03a172c73843ff506592c952a04.pdf)
 

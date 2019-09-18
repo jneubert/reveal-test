@@ -1,1 +1,1 @@
-# Test: Example slides for DCMI 2019 Wikidata Tutorial
+# Some slides for DCMI 2019 Wikidata Tutorial

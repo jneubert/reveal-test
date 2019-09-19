@@ -8,6 +8,32 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ---
 
+## Item creation "on the go"
+
+- With Mix-n-match "New item": rudimentary, no references
+- Custom list of prepared QuickStatements insert blocks
+- {Porto, slide 18}
+- Workflow-wise, use same sequence for M-n-m input and prepared insert blocks
+
+---
+
+## Recommendations for item creation
+
+- Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability)
+- Explain your plan and ask for feedback in the [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
+- [Apply for a bot account](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) to make mass edits ([example]())
+- Source every statement ([hints]())
+- Create input in [QuickStatements text format]()
+- Run as batch, document input and batch URL
+
+---
+
+## Matching from WD to GND
+
+- {SWIB17 breakout slides}
+
+---
+
 ## Import catalog data to Mix-n-Match
 
 ---
@@ -20,9 +46,11 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 2. name
 3. description
 
-[example file](https://pm20.zbw.eu/work/mnm/publikation_zdb_mnm_edited.txt)
+[Input file for the example used earlier](https://pm20.zbw.eu/work/mnm/publikation_zdb_mnm_edited.txt)
 
-Pay attention to
+---
+
+### Pay attention to
 
 - description column: include everything useful for intelectual identification
 - order: may structure your workflow (e.g., most used entries first)
@@ -63,4 +91,4 @@ Pay attention to
 
 ![mnm after sync](images/mnm_catalog_after_sync.png)
 
----
+

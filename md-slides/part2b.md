@@ -2,7 +2,7 @@
 
 ---
 
-Mix-n-match is a widely used tool (by Magnus Manske) to link external databases, catalogs, etc. to existing Wikidata items or to create new ones.
+Mix-n-match is a widely used tool (by Magnus Manske) to link external databases, catalogs, etc. to existing Wikidata items (or to create new ones).
 
 ![map to hub](images/map_to_hub.png)
 
@@ -12,7 +12,7 @@ Mix-n-match is a widely used tool (by Magnus Manske) to link external databases,
 
 ### Newspapers and journals<br />from the 20th Century Press Archive
 
-Note: A few remarks on the domain: The archive contains thematically collected cclippings about persons, events, companies from the first half of the 20th century.
+Note: A few remarks on the domain: The archive contains thematically collected cclippings about a wide range of persons, events, companies. For the first half of the 20th century it is freely acessible.
 
 ---
 

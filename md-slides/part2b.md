@@ -8,11 +8,23 @@ Mix-n-match is a widely used tool (by Magnus Manske) to link external databases,
 
 ---
 
-### Example catalog:
+### Example list:
 
-## Newspapers from the 20th Century Press Archive
+### Newspapers and journals<br />from the 20th Century Press Archive
 
+Note: A few remarks on the domain: The archive contains thematically collected cclippings about persons, events, companies from the first half of the 20th century.
 
+---
+
+![gandhi nairobi](images/gandhi_nairobi.png)
+
+Note: A glimpse into the folder about Mahatma Gandhi, the Indian indepence leader.
+
+---
+
+![gandhi shanghai](images/gandhi_shanghai.png)
+
+Note: More than 1500 sources from many countries has been clipped for the thematic folders. Most of them are linked to the ZDB authority file, and by this identifier we can link them to Wikidata.
 
 ---
 

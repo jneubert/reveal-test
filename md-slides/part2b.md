@@ -2,9 +2,33 @@
 
 ---
 
+Mix-n-match is a widely used tool (by Magnus Manske) to link external databases, catalogs, etc. to existing Wikidata items or to create new ones.
+
+---
+
+### Example catalog:
+
+## Newspapers from the 20th Century Press Archive
+
+
+
+---
+
 Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#/catalog/2773)
 
 [Mix-n-match manual](https://meta.wikimedia.org/wiki/Mix%27n%27match/Manual)
+
+---
+
+## Tasks
+
+- Login through _Widar_
+- In "Automatically matched" list:
+  - Connect matching items
+  - Remove non-matching entries
+- In "Unmatched" list:
+  - Search for existing items
+  - Create missing items ([suggested properties](https://www.wikidata.org/wiki/Wikidata:WikiProject_Periodicals#Periodical_properties))
 
 ---
 
@@ -19,7 +43,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ## Recommendations for item creation
 
-- Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability)
+- Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability) (much more relaxed then Wikipedias)
 - Explain your plan and ask for feedback in the [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
 - [Apply for a bot account](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) to make mass edits ([example]())
 - Source every statement ([hints]())

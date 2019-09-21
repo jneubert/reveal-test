@@ -175,10 +175,20 @@ Note: That second direction is also useful, when you have confidential data, whi
 
 ## Application process for a new property
 
-...
+- Double-check, that the property does not already exist
+- Prepare a property proposal in the according section, e.g., [Wikidata:Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)
 
-[example](https://www.wikidata.org/wiki/Wikidata:Property_proposal/STW_Thesaurus_for_Economics_ID)
+---
 
+[![example stw id](images/property_proposal_stw.png)](https://www.wikidata.org/wiki/Wikidata:Property_proposal/STW_Thesaurus_for_Economics_ID)
+
+---
+
+### Hints for getting it approved smoothly
+
+- Clearly lay out the motivation and planned use for the property
+- Provide working examples (with the formatter URI you are suggesting)
+- Be responsive to comments
 
 ---
 

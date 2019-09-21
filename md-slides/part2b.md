@@ -78,7 +78,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ### Prepare data 
 
-... as tab-separated table (one line per record) with columns
+... as tab-separated table (one line per record) with three columns
 
 1. identitfier
 2. name
@@ -91,7 +91,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 ### Pay attention to
 
 - description column: include everything useful for intelectual identification
-- order: may structure your workflow (e.g., most used entries first)
+- order: the sequence may help structuring your workflow (e.g., most used entries first)
 
 ---
 

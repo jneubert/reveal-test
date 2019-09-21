@@ -4,7 +4,7 @@
 
 Mix-n-match is a widely used tool (by Magnus Manske) to link external databases, catalogs, etc. to existing Wikidata items or to create new ones.
 
-![map to hub](/images/map_to_hub.png)
+![map to hub](images/map_to_hub.png)
 
 ---
 

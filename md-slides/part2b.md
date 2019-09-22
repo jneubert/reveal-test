@@ -50,12 +50,12 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 - With Mix-n-match "New item": rudimentary, no references
 - Custom list of prepared QuickStatements insert blocks
-- {Porto, slide 18}
+- [Example (from STW Thesaurus for Economics](http://zbw.eu/beta/tmp/stw_qs_create.html) - _please don't mess with it, this is work in progress_
 - Workflow-wise, use same sequence for M-n-m input and prepared insert blocks
 
 ---
 
-## Recommendations for item creation
+### Recommendations for item creation
 
 - Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability) (much more relaxed then Wikipedias)
 - Explain your plan and ask for feedback in the [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
@@ -66,9 +66,15 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ---
 
-## Matching from WD to GND
+## Matching from WD to the external database entries
 
-- {SWIB17 breakout slides}
+![map from hub](images/map_from_hub.png)
+
+---
+
+- Normally requires an endpoint for the external source, where you can search for the labels of Wikidata items
+- Insert statement for external id into Wikidata can be prepared for cut&paste or even semi-automatic execution in Quickstatements
+- Some [hints and linked code here](https://www.slideshare.net/jneubert/linking-authorities-through-wikidata)
 
 ---
 

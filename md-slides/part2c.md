@@ -1,8 +1,8 @@
 ## Quality control tools and procedures
 
 - Perception: Everybody can edit ererything - no reliable source
-- Patroling
 - Versioned edits and version control - technically very easy to revert edits ([example]())
+- [Patroling](https://www.wikidata.org/wiki/Wikidata:Patrol)
 - Vandalism prevention and monitoring of suspect edits (e.g., "new editor deleteing statements")
 
 ---
@@ -17,3 +17,7 @@
 - Additional reports can be created via SPARQL queries
 
 
+---
+
+- [Heindorf et al.: Vandalism Detection in Wikidata](https://groups.uni-paderborn.de/fg-engels/publications_pdfs/Konferenzbeitraege/heindorf2016_CIKM.pdf)
+- [Sarabadani et al.: Building automated vandalism detection tools for Wikidata](https://arxiv.org/pdf/1703.03861)

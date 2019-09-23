@@ -18,6 +18,8 @@
 - Shape Expressions (ShEx) allow to define complex constraints
 - Additional reports can be created via SPARQL queries
 
+Note: ShEx can also be used to define views on to the data, which can exist in parallel to other views
+
 ---
 
 ## Revision control and patroling

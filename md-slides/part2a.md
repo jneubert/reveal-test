@@ -6,7 +6,7 @@
 
 Connect concepts via identifiers/URLs
 
-![hub](https://i.imgur.com/dgRaN33.png)
+![hub](images/hub.png)
 
 Existing hubs: [VIAF](http://viaf.org), [sameAs.org](http://sameas.org), ...
 
@@ -21,12 +21,14 @@ Links in pre-existing hubs are collected or derived algorigoritmically. Wikidata
 
 ## Different linking properties
 
+<!--
 1. [equivalent class](https://www.wikidata.org/wiki/Property:P1709 (datatype URL))
 3. [exact match](https://www.wikidata.org/wiki/Property:P2888) (datatype URL)
 2. [equivalent property](https://www.wikidata.org/wiki/Property:P1628)
-3. [exact match](https://www.wikidata.org/wiki/Property:P2888) (datatype URL)<br />
+-->
+1. [exact match](https://www.wikidata.org/wiki/Property:P2888) (datatype URL)<br />
   generic link to URL in the meaning of _skos:exactMatch_
-4. [Pxxxx](https://w.wiki/7qc): more than 4000 specialized properties (datatype external identifier)
+2. [Pxxxx](https://w.wiki/7qc): more than 4000 specialized properties (datatype external identifier)
 
 ---
 
@@ -42,7 +44,7 @@ Links in pre-existing hubs are collected or derived algorigoritmically. Wikidata
 
 ---
 
-![Agarwal page](https://i.imgur.com/VNaeUMK.jpg)
+![Agarwal page](images/agarwal_sqid.jpg)
 
 ---
 
@@ -52,7 +54,7 @@ Links in pre-existing hubs are collected or derived algorigoritmically. Wikidata
 - examples
 - constraints on values, cardinality, etc.
 - [formatter URL](https://www.wikidata.org/wiki/Property:P1630): creates a clickable link for the ID
-- start at the property page https://www.wikidata.org/wiki/Property:{Pid}
+- start at the property page, e.g., for the ISSN: https://www.wikidata.org/wiki/Property:P236
 
 ---
 
@@ -149,7 +151,7 @@ Here, we are interested in economists, in particular.
 
 ### From a remote endpoint to Wikidata
 
-[query to GND endpoint](http://zbw.eu/beta/sparql-lab/?endpoint=http://zbw.eu/beta/sparql/gnd/query&queryRef=https://api.github.com/repos/zbw/sparql-queries/contents/gnd/wd_occupation_economist.rq)
+[query to GND endpoint](http://zbw.eu/beta/sparql-lab/?endpoint=http://zbw.eu/beta/sparql/gnd/query&queryRef=https://api.github.com/repos/zbw/sparql-queries/contents/gnd/wd_occupation_economist.rq) <small>&lt;== not working currently</small>
 
 Note: That second direction is also useful, when you have confidential data, which you want to enrich with facts from Wikidata.
 
@@ -159,15 +161,16 @@ Note: That second direction is also useful, when you have confidential data, whi
 
 - To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) ([full list](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints))
 - In the other direction, access is normally not restricted
-- Some federated queries get extremely slow, when large sets of bindings exist before the remote service is invoked
-- be sure to exclude variables bound to blank nodes ('unknown value' in Wikidata)
+- Direction and sequence of statements often matters for performance
+- <small>Some federated queries get extremely slow, when large sets of bindings exist before the remote service is invoked</small>
+- <small>be sure to exclude variables bound to blank nodes ('unknown value' in Wikidata)</small>
 
 ---
 
 ## Further reading on Wikidata/RDF
 
 - [RDF dump format (documentation)](https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format)
-- [Waagmester: Integrating Wikidata and other linked data sources - Federated SPARQL queries](http://sulab.org/2017/07/integrating-wikidata-and-other-linked-data-sources-federated-sparql-queries/) ([more examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries))
+- [Waagmeester: Integrating Wikidata and other linked data sources - Federated SPARQL queries](http://sulab.org/2017/07/integrating-wikidata-and-other-linked-data-sources-federated-sparql-queries/) ([more examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries))
 - [Malyshev et al.: Semantic Technology Usage in Wikipedia’s Knowledge Graph](https://iccl.inf.tu-dresden.de/w/images/5/5a/Malyshev-et-al-Wikidata-SPARQL-ISWC-2018.pdf)
 - Critical comments/suggestions: [Freire/Isaac: Technical usability of Wikidatas linked data](https://pdfs.semanticscholar.org/f6d1/6eaf975af03a172c73843ff506592c952a04.pdf)
 

@@ -29,7 +29,7 @@ Note: Gives you an idea, what issues are discussed, and how people interact.
 ## Talk pages of properties
 
 - Questions on the use of a certain property
-- Suggestions for changes or enhancements of the property definition
+- Suggestions for changes or enhancements of the property definition ([example](https://www.wikidata.org/wiki/Property_talk:P236#Unique_constraint))
 - Consider adding properties you are interested in to your watchlist
 
 ---

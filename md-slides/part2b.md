@@ -49,8 +49,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 ## Item creation "on the go"
 
 - With Mix-n-match "New item": rudimentary, no references
-- Custom list of prepared QuickStatements insert blocks
-- [Example (from STW Thesaurus for Economics](http://zbw.eu/beta/tmp/stw_qs_create.html) - _please don't mess with it, this is work in progress_
+- Custom list of prepared QuickStatements insert blocks ([example](http://zbw.eu/beta/tmp/stw_qs_create.html) from STW Thesaurus for Economics - _please don't mess with it, this is work in progress_)
 - Workflow-wise, use same sequence for M-n-m input and prepared insert blocks
 
 ---
@@ -59,7 +58,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 - Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability) (much more relaxed then Wikipedias)
 - Explain your plan and ask for feedback in the [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
-- [Apply for a bot account](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) to make mass edits ([example]())
+- [Apply for a bot account](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) to make mass edits ([example](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/JneubertAutomated_3))
 - Source every statement ([hints]())
 - Create input in [QuickStatements text format]()
 - Run as batch, document input and batch URL

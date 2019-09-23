@@ -12,19 +12,19 @@ Mix-n-match is a widely used tool (by Magnus Manske) to link external databases,
 
 ### Newspapers and journals<br />from the 20th Century Press Archive
 
-Note: A few remarks on the domain: The archive contains thematically collected cclippings about a wide range of persons, events, companies. For the first half of the 20th century it is freely acessible.
+Note: A few remarks on the domain: The archive contains thematically collected clippings about a wide range of persons, events, companies. For the first half of the 20th century it is freely accessible.
 
 ---
 
 ![gandhi nairobi](images/gandhi_nairobi.png)
 
-Note: A glimpse into the folder about Mahatma Gandhi, the Indian indepence leader.
+Note: A glimpse into the folder about Mahatma Gandhi, the Indian independence leader.
 
 ---
 
 ![gandhi shanghai](images/gandhi_shanghai.png)
 
-Note: More than 1500 sources from many countries has been clipped for the thematic folders. Most of them are linked to the ZDB authority file, and by this identifier we can link them to Wikidata.
+Note: More than 1500 sources from many countries have been clipped for the thematic folders. Most of them are linked to the ZDB authority file, and by this identifier we can link them to Wikidata.
 
 ---
 
@@ -73,7 +73,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 ---
 
 - Normally requires an endpoint for the external source, where you can search for the labels of Wikidata items
-- Insert statement for external id into Wikidata can be prepared for cut&paste or even semi-automatic execution in Quickstatements
+- Insert statement for external id into Wikidata can be prepared for cut&paste or even semi-automatic execution in QuickStatements
 - Some [hints and linked code here](https://www.slideshare.net/jneubert/linking-authorities-through-wikidata)
 
 ---

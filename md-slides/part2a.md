@@ -198,4 +198,4 @@ Note: That second direction is also useful, when you have confidential data, whi
 - immense fund of existing items, with the full set of SKOS mapping relations for more or less exact mappings to these
 - immediate extensibility with new items
 
-Note: To sum up so far: Three characteristics make Wikidata suitable as an universal linking hub for the vast diversity of knowledge organization systems
+Note: To sum up so far: Three characteristics make Wikidata suitable as a universal linking hub for the vast diversity of knowledge organization systems

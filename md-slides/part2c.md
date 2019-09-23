@@ -13,8 +13,8 @@
   - raise warnings during data input, when, e.g.
     - a format definition (ISBN, DOI etc.) is violated
     - a supposedly unique identifier is added to more than one item
-  - generated lists of constraint violations (e.g. ???)
-- Constraints can be very helpful, but does not cover complex cases
+  - generated lists of constraint violations (e.g. [ZDB ID format](https://www.wikidata.org/wiki/Wikidata:Database_reports/Constraint_violations/P1042#Format))
+- Constraints can be very helpful, but do not cover complex cases
 - Shape Expressions (ShEx) allow to define complex constraints
 - Additional reports can be created via SPARQL queries
 
@@ -34,15 +34,17 @@ Note: I'll give you an example of this - all on one page
 
 ---
 
-![revision history gandhi](images/revision_history_gandhi1.png)
+[![revision history gandhi](images/revision_history_gandhi1.png)](https://www.wikidata.org/w/index.php?title=Q1001&action=history)
 
 ---
 
 ## Automated tools for vandalism detection
 
-- Fighting to keep up with rate of human edits (multiple per second)
-- Wikidata Abuse Filter
-- Objective Revision Evaluation Service (ORES)
+- Fighting to keep up with rate of human edits in Wikidata (multiple per second)
+- ... requires reducing the manual workload, e.g. via
+  - [Wikidata Abuse Filter](https://www.wikidata.org/wiki/Wikidata:Abuse_filter)
+  - Objective Revision Evaluation Service ([ORES](https://www.wikidata.org/wiki/Wikidata:ORES))
+- and other rule-based and machine-learning tools
 
 ---
 

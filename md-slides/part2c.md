@@ -5,6 +5,8 @@
   - particularly by some large Wikipedias (e.g., the English one)
 - Basic policy to address this: Statements should be referenced
 
+Note: Contradicting sources possible. Falsified statements can be deprecated.
+
 ---
 
 ## QA support for editors
@@ -15,8 +17,15 @@
     - a supposedly unique identifier is added to more than one item
   - generated lists of constraint violations (e.g. [ZDB ID format](https://www.wikidata.org/wiki/Wikidata:Database_reports/Constraint_violations/P1042#Format))
 - Constraints can be very helpful, but do not cover complex cases
-- Shape Expressions (ShEx) allow to define complex constraints
+
+---
+
+### More QA support for editors
+
 - Additional reports can be created via SPARQL queries
+- Shape Expressions (ShEx) allow to define complex constraints and conformance checks
+  - [ShEx Primer](http://shex.io/shex-primer/)
+  - [How to get started with Shape Expressions in Wikidata?](https://www.wikidata.org/wiki/Wikidata:WikiProject_ShEx/How_to_get_started%3F)
 
 Note: ShEx can also be used to define views on to the data, which can exist in parallel to other views
 

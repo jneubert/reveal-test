@@ -96,6 +96,8 @@ Note:
 
 ![assesment](images/mapping_relation_assessment_center.png)
 
+Note: OK, so far on the main linking mechanisms in Wikidata
+
 ---
 
 ## How does that relate to the Linked Data model?
@@ -137,7 +139,7 @@ umbel:isLike.
 
 ## Federated SPARQL queries
 
-Example: GND authority has information about the professions/occupations of people which are not known in wikidata.
+Example use case: GND authority has information about the professions/occupations of people which is not known in Wikidata.
 
 So get that information dynamically from a GND SPARQL endpoint.
 
@@ -159,9 +161,9 @@ Note: That second direction is also useful, when you have confidential data, whi
 
 ### Several points for attention
 
+- Direction and sequence of statements often matters for performance
 - To reach out from Wikidata, endpoints have to be [approved](https://www.wikidata.org/wiki/Wikidata:SPARQL_federation_input) ([full list](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual/SPARQL_Federation_endpoints))
 - In the other direction, access is normally not restricted
-- Direction and sequence of statements often matters for performance
 - <small>Some federated queries get extremely slow, when large sets of bindings exist before the remote service is invoked</small>
 - <small>be sure to exclude variables bound to blank nodes ('unknown value' in Wikidata)</small>
 
@@ -173,6 +175,8 @@ Note: That second direction is also useful, when you have confidential data, whi
 - [Waagmeester: Integrating Wikidata and other linked data sources - Federated SPARQL queries](http://sulab.org/2017/07/integrating-wikidata-and-other-linked-data-sources-federated-sparql-queries/) ([more examples](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries))
 - [Malyshev et al.: Semantic Technology Usage in Wikipedia’s Knowledge Graph](https://iccl.inf.tu-dresden.de/w/images/5/5a/Malyshev-et-al-Wikidata-SPARQL-ISWC-2018.pdf)
 - Critical comments/suggestions: [Freire/Isaac: Technical usability of Wikidatas linked data](https://pdfs.semanticscholar.org/f6d1/6eaf975af03a172c73843ff506592c952a04.pdf)
+
+Note: Wikidata is a comfortable way to enter the world of RDF and Linked Data. But how can you get your beloved resources in?
 
 ---
 
@@ -193,6 +197,10 @@ Note: That second direction is also useful, when you have confidential data, whi
 - Provide working examples (with the formatter URI you are suggesting)
 - Be responsive to comments
 
+Note: So, it's not difficult.
+
+To wrap it up:
+
 ---
 
 ## Wikidata as a universal linking hub
@@ -201,4 +209,4 @@ Note: That second direction is also useful, when you have confidential data, whi
 - immense fund of existing items, with the full set of SKOS mapping relations for more or less exact mappings to these
 - immediate extensibility with new items
 
-Note: To sum up so far: Three characteristics make Wikidata suitable as a universal linking hub for the vast diversity of knowledge organization systems
+Note: Three characteristics make Wikidata suitable as a universal linking hub for the vast diversity of knowledge organization systems

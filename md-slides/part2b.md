@@ -59,9 +59,12 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 - Pay attention to [Wikidata's notability criteria](https://www.wikidata.org/wiki/Wikidata:Notability) (much more relaxed then Wikipedias)
 - Explain your plan and ask for feedback in the [Wikidata project chat](https://www.wikidata.org/wiki/Wikidata:Project_chat)
 - [Apply for a bot account](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot) to make mass edits ([example](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/JneubertAutomated_3))
-- Source every statement ([hints]())
-- Create input in [QuickStatements text format]()
+- Source every statement ([hints](https://www.wikidata.org/wiki/Help:Sources))
+- Create input in [QuickStatements text format](https://www.wikidata.org/wiki/Help:QuickStatements)
+- Check with a few statements, verify result
 - Run as batch, document input and batch URL
+
+Note: I've showed you Mix-n-match, as one major tool. There are others, like OpenRefine.
 
 ---
 
@@ -71,7 +74,7 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ---
 
-- Normally requires an endpoint for the external source, where you can search for the labels of Wikidata items
+- Normally requires an endpoint for the external source, where you can search for the labels, aliases or other data of Wikidata items
 - Insert statement for external id into Wikidata can be prepared for cut&paste or even semi-automatic execution in QuickStatements
 - Some [hints and linked code here](https://www.slideshare.net/jneubert/linking-authorities-through-wikidata)
 

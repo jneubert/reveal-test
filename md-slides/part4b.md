@@ -11,6 +11,7 @@
 - Main entry point for all kind of discussions
 - Resolved discussions archived after 7 days - [searchable](https://www.wikidata.org/wiki/Wikidata:Project_chat/Archive)
 - Beginner's questions welcome (but please try to find the answer online before, particularly in the [FAQ](https://www.wikidata.org/wiki/Help:FAQ), which has a  search link to the help pages)
+- Compared to Wikipedia, the overall atmosphere is constructive (though exceptions exist sometimes in some sub-communities)
 - English is the lingua franca, but a few questions show up in other languages, and receive comments, too
 
 Note: Gives you an idea, what issues are discussed, and how people interact.

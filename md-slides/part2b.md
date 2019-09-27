@@ -46,6 +46,10 @@ Please navigate to our [example catalog](https://tools.wmflabs.org/mix-n-match/#
 
 ---
 
+# _Supplementary material_
+
+---
+
 ## Item creation "on the go"
 
 - With Mix-n-match "New item": rudimentary, no references
